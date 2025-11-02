@@ -9,7 +9,7 @@ from scipy.stats import hmean
 
 # stockfish engine path
 # this is the path on my Home machine it should be chnaged if you are using it 
-STOCKFISH_PATH = "/opt/homebrew/bin/stockfish"
+STOCKFISH_PATH = r"C:\Users\p45mi\Downloads\stockfish-windows-x86-64-avx2\stockfish\stockfish-windows-x86-64-avx2.exe"
 
 # the input game file and the output CSV file
 # MUST BE CHNAGED MANUALLY UPON USE

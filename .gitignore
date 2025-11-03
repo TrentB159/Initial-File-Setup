@@ -1,0 +1,2 @@
+# Ignore the specific directory and all its contents
+simulated_filtered_model(more_conv_layers)/

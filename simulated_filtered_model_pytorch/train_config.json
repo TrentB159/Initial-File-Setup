@@ -1,0 +1,16 @@
+{
+    "epochs": 50,
+    "batch_size": 256,
+    "validation_split": 0.1,
+    "optimizer": "AdamW",
+    "learning_rate": 0.001,
+    "input_shape": [
+        12,
+        8,
+        8
+    ],
+    "num_classes": 1945,
+    "mixed_precision": false,
+    "num_workers": 0,
+    "device": "directml"
+}

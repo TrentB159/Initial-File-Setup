@@ -13,8 +13,8 @@ STOCKFISH_PATH = r"C:\Users\p45mi\Downloads\stockfish-windows-x86-64-avx2\stockf
 
 # the input game file and the output CSV file
 # MUST BE CHNAGED MANUALLY UPON USE
-pgn_path = "newmodelsim(transfer_learning_original).pgn"
-output_csv = "newmodelsim(transfer_learning_original).csv"
+pgn_path = "Transfer_learning/models/TL_LateGame/TL_test.pgn"
+output_csv = "Transfer_learning/models/TL_LateGame/TL_test.csv"
 
 engine = chess.engine.SimpleEngine.popen_uci(STOCKFISH_PATH)
 results_list = []
